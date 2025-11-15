@@ -64,9 +64,9 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
-    bottom: 10px;
+    bottom: 25px;
     background-color: var(--secondary-color);
     margin: 0%;
 }
