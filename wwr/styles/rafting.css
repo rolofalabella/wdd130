@@ -1,7 +1,7 @@
 :root {
    --primary-color: #5E6CE5; /*Glaucous*/
-   --secondary-color: lightgrey; /*Columbia blue*/
-   --accent1-color: darkblue;
+   --secondary-color: #d0f7d0; /*Pastel Green*/
+   --accent1-color: lavender;
    --accent2-color: #0A369D; /*Egyptian blue*/
    --heading-font: "Times New Roman", "Georgia", serif;
    --body-font: Arial, Helvetica, sans-serif;
@@ -16,12 +16,13 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 header, main, footer {
     width: 840px;
     margin: 0 auto;
+    background-color: var(--accent1-color);
 }
 
 h1, h2 {
@@ -64,8 +65,8 @@ h1 {
 }
 
 article {
-    position: relative;
-    bottom: 150px;
+    position: absolute;
+    bottom: 10px;
     background-color: var(--secondary-color);
     margin: 0%;
 }
