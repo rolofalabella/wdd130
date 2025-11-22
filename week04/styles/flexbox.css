@@ -7,7 +7,8 @@ body {
     border: 3px dashed darkcyan;
     background-color: lightyellow;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    min-height: 500px;
 }
 
 .flex-item {
