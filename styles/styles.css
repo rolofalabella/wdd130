@@ -4,9 +4,9 @@
    box-sizing: border-box; 
 }
 :root {
-    --main-background-color: #4997d0;
+    --main-background-color: gainsboro;
     --main-text-align: center;
-    --blue-background-font: white;
+    --blue-background-font: darkslategrey;
 }
 
 nav {
@@ -55,17 +55,17 @@ aside {
 
 aside h2 {
     position: absolute;
-    top: 55px;
+    top: 35px;
     left: 100px;
 }
 
 aside img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
 main img {
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -82,7 +82,7 @@ footer {
 }
 /* Class Selectors */
 .box {
-    margin: 1rem;
+    /* margin: 1rem; */
     border: 1px solid rgb(0, 0, 0 / 10%);
     padding: 1rem;
     background-color: var(--main-background-color);
