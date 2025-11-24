@@ -47,13 +47,28 @@ a {
 }
 
 .section2 {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
 }
 
-figcaption {
-    align-items: center;
+.section2 figure {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.section2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section2 figcaption {
+    position: static;
+    text-align: center;
+    padding: 8px 0;
 }
 
 header, main, footer {
