@@ -89,6 +89,7 @@ h1, h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+    
 }
 
 .socialmedia a {
@@ -143,4 +144,78 @@ footer p {
 
 .socialmedia {
     flex: content;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact p {
+    margin: auto 0;
+    padding: 2px;
+    font-weight: bold;
+}
+
+form {
+    width: 650px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+ input {
+    padding: 10px;
+    font-size: 1rem;
+    text-align: left;
+    max-width: 500px;
+    position: static;
+}
+
+.map {
+    display: flex;
+    gap: 30px;
+}
+
+.map iframe, .map form {
+    flex: 1;
+    width: 100%;
+}
+
+iframe {
+    margin-top: 50px;
+}
+
+.employees {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.employees figcaption {
+    text-align: center;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.textarea-contact {
+    margin: 10px 10px;
 }
