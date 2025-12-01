@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: var(--body-font);
+    font-family: var(--body-font, Arial, Helvetica,sans-serif);
     color: var(--accent2-color);
 }
 
@@ -78,7 +78,7 @@ header, main, footer {
 }
 
 h1, h2 {
-    font-family: var(--heading-font);
+    font-family: var(--heading-font, Arial,Helvetica, sans-serif);
     color: var(--accent1-color);
     text-align: center;
     background-color: var(--primary-color);
