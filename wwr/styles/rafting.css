@@ -97,6 +97,7 @@ nav, p, section, article {
 
 .hero {
     position: relative;
+
 }
 
 .hero img {
@@ -105,7 +106,7 @@ nav, p, section, article {
     height: auto;
 }
 
-/* h1 {
+h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -113,7 +114,11 @@ nav, p, section, article {
     text-align: center;
     opacity: 0.9;
     color: #fff;
-} */
+}
+
+#h1contact {
+    position: static;
+}
 
 .hero article {
     position: absolute;
@@ -155,13 +160,15 @@ footer p {
 }
 
 form {
-    width: 650px;
+    width: 450px;
     margin: 1rem auto;
     padding: 1rem;
     border: 1px solid rgb(0, 0, 0 / 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
@@ -173,6 +180,7 @@ button {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
  input {
@@ -181,6 +189,7 @@ button {
     text-align: left;
     max-width: 500px;
     position: static;
+    align-content: center;
 }
 
 .map {
@@ -216,4 +225,112 @@ iframe {
 
 .textarea-contact {
     margin: 10px 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.grid-item p {
+    align-items: center;
+}
+
+.call {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.hero a {
+    align-items: center;
+}
+
+.test {
+position: absolute;
+    top: 90px;
+    left: 300px;
+    width: 30%;
+    /* padding: 16px; */
+    text-align: center;
+    opacity: 0.9;
+    color: #fff;
+    background-color: navy;
+    border-radius: .5rem;
+    padding: .75rem;
+    cursor: pointer;
+    align-items: center;
+}
+
+#p-trips {
+    position: absolute;
+    color: white;
+    font-family: cursive;
+    font-size: 40px;
+    left: 200px;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+.grid-trip {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.grid-trip img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+tbody {
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
 }
